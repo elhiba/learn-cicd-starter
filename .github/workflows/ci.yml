@@ -25,6 +25,5 @@ jobs:
       - name: go fmt
         run: go fmt
 
-      - name: Force SUCCESS
+      - name: Force SUCCESSS
         run: (exit 0)
-
