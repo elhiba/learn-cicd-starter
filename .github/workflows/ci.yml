@@ -16,9 +16,9 @@ jobs:
         uses: actions/setup-go@v5
         with:
           go-version: "1.25.1"
-      - name: test files
+      - name: tester
         run: go test ./...
 
-      - name: Force success
+      - name: Force SUCCESS
         run: (exit 0)
 
