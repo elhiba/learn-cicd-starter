@@ -23,7 +23,7 @@ jobs:
         run: test -z $(go fmt ./...)
 
       - name: go fmt
-        run: go gmt
+        run: go fmt
 
       - name: Force SUCCESS
         run: (exit 0)
